@@ -1,0 +1,54 @@
+.air-plants {
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+  .plants-span {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 40%;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+  .product-item {
+    width: 20%;
+    margin: 3%;
+    border: 1px solid white;
+    position: relative;
+    .sale-label {
+      position: absolute;
+      background-color: red;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 3px;
+      font-size: 12px;
+      top: 4px;
+      right: 4px;
+    }
+    .product-img {
+      width: -webkit-fill-available;
+      padding: 1%;
+    }
+    .btn-cart {
+      background-color: rgb(23, 183, 17);
+      color: white;
+    }
+    .product-price{
+      color: red;
+      font-size: large;
+      font-weight: bold;
+    }
+  }
+
+  .truncate {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
