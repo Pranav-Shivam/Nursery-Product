@@ -1,0 +1,102 @@
+.plants-cost {
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+  .price-span {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 40%;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+}
+.cart-item {
+  align-items: center;
+  margin-bottom: 10px;
+  display: grid;
+  justify-content: center;
+  background-color: antiquewhite;
+  border: 1px solid aquamarine;
+  padding: 2%;
+}
+
+.cart-item-img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-container {
+  display: grid;
+  justify-content: center;
+}
+
+.cart {
+  .title {
+    width: 60%;
+    text-align: left;
+  }
+
+  .truncate {
+    width: 30vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+}
+
+.checkout {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.btn-shopping {
+  background-color: rgb(23, 183, 17);
+  border: 0;
+  border-radius: 6px;
+  color: white;
+}
+.btn-checkout {
+  background-color: rgb(23, 183, 17);
+  border: 0;
+  border-radius: 6px;
+  color: white;
+}
+.btn-checkout:hover {
+  background-color: transparent;
+  border: 1px solid  rgb(23, 183, 17);
+  color: rgb(23, 183, 17);
+}
+.btn-shopping:hover {
+  background-color: transparent;
+  border: 1px solid  rgb(23, 183, 17);
+  color: rgb(23, 183, 17);
+}
+
+.btn-minus{
+  margin-right: 2%;
+}
+.btn-plus{
+  margin-left: 2%;
+}
+
+.btn-delete{
+  margin: auto;
+  background-color: red;
+  border: 0;
+  border-radius: 6px;
+}
+.btn-delete:hover{
+  background-color: transparent;
+  border: 1px solid red ;
+  color: red;
+}
